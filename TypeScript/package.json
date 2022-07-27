@@ -24,7 +24,8 @@
     "transform": {
       "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "testRegex": "(/test/.*|(\\.|/)(test|spec))\\.(js?|ts?)$"
+    "testRegex": "(/test/.*|(\\.|/)(test|spec))\\.(js?|ts?)$",
+    "testPathIgnorePatterns": ["/\\.history/", "/\\.lh/"]
   },
   "repository": {
     "type": "git",
